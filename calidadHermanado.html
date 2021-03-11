@@ -21,74 +21,68 @@
     </div>
   </nav>
 
-  <div class="inicio">
-    <nav>
-      <div class="container-nav">
-        <div class='navbar-nav me-auto mb-2 mb-lg-0'>
-          <a href="./calidadHermanado.html" class='nav-item itemMenu text-primary'>Hermanado</a>
-          <a href="./calidadInspeccion.html" class='nav-item itemMenu text-primary'>Inspeccion</a>
+  <div class="d-flex">
+    <div class='bg-primary' style='height: 91.3vh'>
+      <nav>
+        <div class="container border-bottom border-light py-2">
+          <h5><a href="./calidadHermanado.html" class='nav-item text-decoration-none text-light'>Hermanado</a></h5>
         </div>
-      </div>
-    </nav>
+        <div class="container border-bottom border-light py-2">
+          <h5><a href="./calidadInspeccion.html" class='nav-item text-decoration-none text-light'>Inspeccion</a></h5>
+        </div>
+      </nav>
+    </div>
 
   <!-- Body -->
 
-    <div class="container container-app mt-5">
+    <div class="container text-center w-50 mt-5">
       <h1>Hermanado</h1>
-      <div class="app-hermanado">
+      <div class="d-flex h-50 flex-column justify-content-around border border-primary mt-4">
 
         <!--App Body-->
 
-          <!--Superior-->
-          <div class="container w-100">
-            <div class="row d-flex align-items-center">
-              <div class="col-md-4">
-                Pares de primera:
+          <div class="container py-4">
+              <!--Superior-->
+            <div class="container w-50">
+              <div class="row d-flex align-items-center">
+                <div class="col-md-4">
+                  Pares de primera:
+                </div>
+                <div class="col-md-2">
+                  <button class='btn btn-success'><i class="bi bi-plus-circle"></i></button>
+                </div>
+                <div class="col-md-4">
+                  <input class="form-control" type="text">
+                </div>
+                <div class="col-md-2">
+                  <button class='btn btn-danger btn'><i class="bi bi-dash-circle w-auto"></i></button>
+                </div>
               </div>
-              <div class="col-md-2">
-                <button class='btn btn-success'><i class="bi bi-plus-circle"></i></button>
-              </div>
-              <div class="col-md-4">
-                <input class="form-control" type="text">
-              </div>
-              <div class="col-md-2">
-                <button class='btn btn-danger btn'><i class="bi bi-dash-circle w-auto"></i></button>
+            </div>
+
+            <!--Inferior-->
+            <div class="container w-50 mt-4">
+              <div class="row d-flex align-items-center">
+                <div class="col-md-4">
+                  Pares de segunda:
+                </div>
+                <div class="col-md-2">
+                  <button class='btn btn-success'><i class="bi bi-plus-circle"></i></button>
+                </div>
+                <div class="col-md-4">
+                  <input class="form-control" type="text">
+                </div>
+                <div class="col-md-2">
+                  <button class='btn btn-danger btn'><i class="bi bi-dash-circle w-auto"></i></button>
+                </div>
               </div>
             </div>
           </div>
 
-          <!--Inferior-->
-          <div class="container w-100">
-            <div class="row d-flex align-items-center">
-              <div class="col-md-4">
-                Pares de segunda:
-              </div>
-              <div class="col-md-2">
-                <button class='btn btn-success'><i class="bi bi-plus-circle"></i></button>
-              </div>
-              <div class="col-md-4">
-                <input class="form-control" type="text">
-              </div>
-              <div class="col-md-2">
-                <button class='btn btn-danger btn'><i class="bi bi-dash-circle w-auto"></i></button>
-              </div>
-            </div>
-          </div>
-
-          <div class="container d-flex align-items-center justify-content-center h-25 border-top border-bottom border-dark">
-            <div class="footer">
-              <div class="row">
-                <div class="col-md">
-                  <button class="btn btn-outline-dark ">Volver</button>
-                </div>
-                <div class="col-md">
-                  <button class="btn btn-outline-dark ">Asociar</button>
-                </div>
-                <div class="col-md">
-                  <button class="btn btn-outline-dark ">Salir</button>
-                </div>
-              </div>
-            </div>
+          <div class="d-flex justify-content-around px-5">
+              <button class="btn btn-outline-primary ">Volver</button>
+              <button class="btn btn-outline-dark ">Asociar</button>
+              <button class="btn btn-outline-dark ">Salir</button>
           </div>
 
         </div>
