@@ -3,8 +3,8 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  width: 15vw;
-  height: 91vh;
+  width: 13.5vw;
+  height: 94vh;
   border-right: 1px solid rgba(116, 116, 116, 0.2);
   z-index: 10;
 }
@@ -24,6 +24,7 @@
 
 .inicio {
   display: flex;
+  max-height: 75vh;
 }
 
 .container-app {
@@ -34,9 +35,9 @@
 
 .app {
   border: 2px solid black;
-  width: auto;
+  width: 60vw;
   height: 65vh;
-  margin-top: 50px;
+  margin-top: 2vh;
   overflow-y: scroll;
 }
 
@@ -67,4 +68,8 @@
 .footer {
   display: flex;
   justify-content: center;
+}
+
+.table-row {
+  cursor: pointer;
 }
